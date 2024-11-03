@@ -70,3 +70,7 @@
 .navbar-profile:hover .dropdown{
     display: block;
 }
+
+.nav-dark{
+    backdrop-filter: blur(5px);
+}
