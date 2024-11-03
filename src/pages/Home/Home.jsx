@@ -10,10 +10,10 @@ import Footer from '../../components/Footer/Footer'
 
 function Home() {
     const titles = [
-        { title: 'Blockbuster Movies' },
-        { title: 'Feel Good Movies' },
-        { title: 'Top Rated Movies' },
-        { title: 'Animation Movies' }
+        { title: 'Blockbuster Movies', category: 'popular' },
+        { title: 'Feel Good Movies', category: 'upcoming' },
+        { title: 'Top Rated Movies', category: 'top_rated' },
+        { title: 'Animation Movies', category: 'now_playing' }
     ];
     return (
         <div className='home'>
@@ -32,7 +32,7 @@ function Home() {
             </div>
             <div className="more-cards">
                 {titles.map((items, index) => (
-                    <TitleCards key={index} title={items.title} />
+                    <TitleCards key={index} title={items.title} category={items.category} />
                 ))}
             </div>
             <Footer />
