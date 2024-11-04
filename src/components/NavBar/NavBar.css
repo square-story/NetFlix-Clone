@@ -83,7 +83,9 @@
     .navbar-left ul{
         display: none;
     }
-    
+    .navbar img{
+        height: 25px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -91,7 +93,6 @@
         padding: 20px 2%;
         font-size: 12px;
     }
-    
     .navbar-right .icons {
         height: 20px;
         width: 20px;

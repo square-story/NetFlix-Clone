@@ -62,7 +62,7 @@
     padding-left: 6%;
 }
 
-@media (maxwidth: 1024px) {
+@media (max-width: 1024px) {
     .hero-caption .title-cards{
         display: none;
     }
@@ -71,7 +71,7 @@
     }
 }
 
-@media (maxwidth: 800px) {
+@media (max-width: 800px) {
     .hero-caption{
         padding-left: 4%;
     }
@@ -90,5 +90,20 @@
     }
     .more-cards{
         padding-left: 4%;
+    }
+}
+
+@media (max-width: 500px){
+    .caption-img{
+        display: none;
+    }
+    .hero-btns .btn img{
+        width: 15px;
+
+    }
+    .hero-btns .btn{
+        padding: 4px 10px;
+        gap: 5px;
+        font-size: 10px;
     }
 }
